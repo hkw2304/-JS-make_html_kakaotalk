@@ -5,7 +5,8 @@
   font-size: 25px;
 }
 #find-content span {
-  font-size: 17px;
+  font-size: 15px;
+  color: red;
 }
 .find-content__item {
   display: flex;
