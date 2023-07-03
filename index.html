@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <div id="state-bar">
+      <div class="state-bar__left">
+        <span>No service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="state-bar__center">
+        <span>13:12</span>
+      </div>
+      <div class="state-bar__right">
+        <span>100%</span>
+        <i class="fa-solid fa-battery-full fa-lg"></i>
+        <i class="fa-solid fa-bolt-lightning"></i>
+      </div>
+    </div>
+    <header class="index-text">
+      <h1>Welcom to kokoa clone</h1>
+      <p>If you have a KoKoa Account, log in with your email or phone number</p>
+    </header>
+    <form action="friends.html" method="get" id="login-form">
+      <input type="text" placeholder="Email or phone number" required />
+      <input
+        type="password"
+        required
+        placeholder="Password"
+        minlength="5"
+        maxlength="12"
+      />
+      <input type="submit" value="Log In" />
+    </form>
+    <p class="find-info">Find KoKoa Account or Password</p>
+    <div id="no-mobile">
+      <span> Your screen is too big!!!!!!! </span>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/86bc6866a5.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

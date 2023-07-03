@@ -1,0 +1,46 @@
+.index-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 65px;
+}
+.index-text p {
+  opacity: 0.5;
+}
+#login-form {
+  margin-top: 115px;
+  display: flex;
+  flex-direction: column;
+  padding: 18px;
+}
+input:not(.search-bar_text) {
+  height: 53px;
+}
+input:not(:first-child, .search-bar_text) {
+  margin-top: 20px;
+}
+input:not(input[type="submit"], .search-bar_text) {
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  opacity: 0.6;
+}
+input:not(input[type="submit"], .search-bar_text):focus {
+  border-bottom-color: rgb(250, 225, 0);
+}
+input:not(.search-bar_text)::placeholder {
+  opacity: 0.5;
+  font-size: 20px;
+}
+input[type="submit"] {
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: rgb(250, 225, 0);
+  cursor: pointer;
+}
+.find-info {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  margin-top: 15px;
+}

@@ -1,0 +1,19 @@
+@import "login.css";
+@import url("https://fonts.googleapis.com/css2?family=Contrail+One&display=swap");
+@import "reset.css";
+@import "common-css/state-bar.css";
+@import "common-css/common-title.css";
+@import "friends.css";
+@import "common-css/common-bottom.css";
+@import "chats.css";
+@import "find.css";
+@import "more.css";
+@import "common-css/commom-line.css";
+@import "common-css/common-img.css";
+@import "setting.css";
+@import "chatting.css";
+@import "no-mobile.css";
+body {
+  font-family: "Contrail One", cursive;
+  height: 1000vh;
+}
