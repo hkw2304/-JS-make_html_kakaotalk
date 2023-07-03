@@ -4,6 +4,9 @@
   justify-content: space-between;
   font-size: 25px;
 }
+#find-content span {
+  font-size: 17px;
+}
 .find-content__item {
   display: flex;
   flex-direction: column;
