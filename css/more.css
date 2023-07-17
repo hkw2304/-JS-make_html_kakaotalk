@@ -20,6 +20,9 @@
   justify-content: space-around;
   font-size: x-large;
 }
+#icon2 .icon__item {
+  margin-left: 18px;
+}
 .more-line-wrap {
   padding-left: 15px;
 }
